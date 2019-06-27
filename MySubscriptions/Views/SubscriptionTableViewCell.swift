@@ -9,7 +9,7 @@
 import UIKit
 
 class SubscriptionTableViewCell: UITableViewCell {
-    @IBOutlet weak var companyLogo: UIView!
+    // MARK: Outlets
     @IBOutlet weak var companyName: UILabel!
     @IBOutlet weak var subscriptionPrice: UILabel!
     @IBOutlet weak var firstBill: UILabel!
@@ -18,11 +18,11 @@ class SubscriptionTableViewCell: UITableViewCell {
         super.awakeFromNib()
         // Initialization code
     }
-
+    
     override func setSelected(_ selected: Bool, animated: Bool) {
         super.setSelected(selected, animated: animated)
-
+        
         // Configure the view for the selected state
     }
-
+    
 }

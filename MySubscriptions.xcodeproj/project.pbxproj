@@ -7,21 +7,47 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D0D9EE2FC43D6BAB4168AA31 /* Pods_MySubscriptions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4FC0CDEA34EDB8A3DCAE7B9 /* Pods_MySubscriptions.framework */; };
+		D507AD6E22BD92FE005E918A /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D507AD6D22BD92FE005E918A /* LoginViewController.swift */; };
+		D507AD7022BD9306005E918A /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D507AD6F22BD9306005E918A /* SignUpViewController.swift */; };
+		D5336BFB22C2AE40007CD44A /* FirstPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5336BFA22C2AE40007CD44A /* FirstPageViewController.swift */; };
+		D56BAFD622C4559B0007EBD0 /* HelperMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = D56BAFD522C4559B0007EBD0 /* HelperMethod.swift */; };
+		D59C0AD322C073D000E94BE8 /* SubscriptionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D59C0AD222C073D000E94BE8 /* SubscriptionsTableViewController.swift */; };
+		D5BEDBFA22BBF2A4002C7DD0 /* Poppins-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5BEDBF922BBF17C002C7DD0 /* Poppins-Light.ttf */; };
+		D5BEDBFB22BBF2A8002C7DD0 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D5BEDBF822BBF17C002C7DD0 /* Poppins-Bold.ttf */; };
+		D5C2CF0922C3FFF00062B38F /* BillDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5C2CF0822C3FFF00062B38F /* BillDetailsViewController.swift */; };
+		D5CC18FA22C07A6700F945E7 /* Subscription.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5CC18F922C07A6700F945E7 /* Subscription.swift */; };
+		D5DA1A2B22BDA2A600E08BDB /* SubscriptionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5DA1A2A22BDA2A600E08BDB /* SubscriptionTableViewCell.swift */; };
+		D5E70EDA22BEFB32003A437F /* AddNewSubscriptionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5E70ED922BEFB32003A437F /* AddNewSubscriptionViewController.swift */; };
 		D5EA887E22BBBF5B00C871CB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EA887D22BBBF5B00C871CB /* AppDelegate.swift */; };
-		D5EA888022BBBF5B00C871CB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5EA887F22BBBF5B00C871CB /* ViewController.swift */; };
 		D5EA888322BBBF5B00C871CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5EA888122BBBF5B00C871CB /* Main.storyboard */; };
 		D5EA888522BBBF5C00C871CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5EA888422BBBF5C00C871CB /* Assets.xcassets */; };
 		D5EA888822BBBF5C00C871CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5EA888622BBBF5C00C871CB /* LaunchScreen.storyboard */; };
+		D5EA889022BBD0ED00C871CB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D5EA888F22BBD0ED00C871CB /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7F7233DFEF802A8B897AEC33 /* Pods-MySubscriptions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySubscriptions.release.xcconfig"; path = "Pods/Target Support Files/Pods-MySubscriptions/Pods-MySubscriptions.release.xcconfig"; sourceTree = "<group>"; };
+		99B7404442A1E464518C8990 /* Pods-MySubscriptions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MySubscriptions.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MySubscriptions/Pods-MySubscriptions.debug.xcconfig"; sourceTree = "<group>"; };
+		D4FC0CDEA34EDB8A3DCAE7B9 /* Pods_MySubscriptions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MySubscriptions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D507AD6D22BD92FE005E918A /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		D507AD6F22BD9306005E918A /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		D5336BFA22C2AE40007CD44A /* FirstPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstPageViewController.swift; sourceTree = "<group>"; };
+		D56BAFD522C4559B0007EBD0 /* HelperMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HelperMethod.swift; sourceTree = "<group>"; };
+		D59C0AD222C073D000E94BE8 /* SubscriptionsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionsTableViewController.swift; sourceTree = "<group>"; };
+		D5BEDBF822BBF17C002C7DD0 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		D5BEDBF922BBF17C002C7DD0 /* Poppins-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Light.ttf"; path = "../Poppins-Light.ttf"; sourceTree = "<group>"; };
+		D5C2CF0822C3FFF00062B38F /* BillDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BillDetailsViewController.swift; sourceTree = "<group>"; };
+		D5CC18F922C07A6700F945E7 /* Subscription.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Subscription.swift; sourceTree = "<group>"; };
+		D5DA1A2A22BDA2A600E08BDB /* SubscriptionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptionTableViewCell.swift; sourceTree = "<group>"; };
+		D5E70ED922BEFB32003A437F /* AddNewSubscriptionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddNewSubscriptionViewController.swift; sourceTree = "<group>"; };
 		D5EA887A22BBBF5B00C871CB /* MySubscriptions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySubscriptions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D5EA887D22BBBF5B00C871CB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D5EA887F22BBBF5B00C871CB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D5EA888222BBBF5B00C871CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D5EA888422BBBF5C00C871CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D5EA888722BBBF5C00C871CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D5EA888922BBBF5C00C871CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5EA888922BBBF5C00C871CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
+		D5EA888F22BBD0ED00C871CB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +55,62 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D0D9EE2FC43D6BAB4168AA31 /* Pods_MySubscriptions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4B9A855A9499398BC0C5AAFA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D4FC0CDEA34EDB8A3DCAE7B9 /* Pods_MySubscriptions.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D5336BF522C256CC007CD44A /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D507AD6D22BD92FE005E918A /* LoginViewController.swift */,
+				D507AD6F22BD9306005E918A /* SignUpViewController.swift */,
+				D5DA1A2A22BDA2A600E08BDB /* SubscriptionTableViewCell.swift */,
+				D5E70ED922BEFB32003A437F /* AddNewSubscriptionViewController.swift */,
+				D59C0AD222C073D000E94BE8 /* SubscriptionsTableViewController.swift */,
+				D5336BFA22C2AE40007CD44A /* FirstPageViewController.swift */,
+				D5C2CF0822C3FFF00062B38F /* BillDetailsViewController.swift */,
+				D56BAFD522C4559B0007EBD0 /* HelperMethod.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D5336BF622C256EF007CD44A /* Resoures */ = {
+			isa = PBXGroup;
+			children = (
+				D5BEDBF822BBF17C002C7DD0 /* Poppins-Bold.ttf */,
+				D5BEDBF922BBF17C002C7DD0 /* Poppins-Light.ttf */,
+				D5EA888922BBBF5C00C871CB /* Info.plist */,
+				D5EA888F22BBD0ED00C871CB /* GoogleService-Info.plist */,
+			);
+			path = Resoures;
+			sourceTree = "<group>";
+		};
+		D5336BF722C25707007CD44A /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				D5CC18F922C07A6700F945E7 /* Subscription.swift */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
 		D5EA887122BBBF5B00C871CB = {
 			isa = PBXGroup;
 			children = (
 				D5EA887C22BBBF5B00C871CB /* MySubscriptions */,
 				D5EA887B22BBBF5B00C871CB /* Products */,
+				F85CA02E51389D3E097A3856 /* Pods */,
+				4B9A855A9499398BC0C5AAFA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +126,23 @@
 			isa = PBXGroup;
 			children = (
 				D5EA887D22BBBF5B00C871CB /* AppDelegate.swift */,
-				D5EA887F22BBBF5B00C871CB /* ViewController.swift */,
+				D5336BF522C256CC007CD44A /* Views */,
+				D5336BF722C25707007CD44A /* Modules */,
+				D5336BF622C256EF007CD44A /* Resoures */,
 				D5EA888122BBBF5B00C871CB /* Main.storyboard */,
 				D5EA888422BBBF5C00C871CB /* Assets.xcassets */,
 				D5EA888622BBBF5C00C871CB /* LaunchScreen.storyboard */,
-				D5EA888922BBBF5C00C871CB /* Info.plist */,
 			);
 			path = MySubscriptions;
+			sourceTree = "<group>";
+		};
+		F85CA02E51389D3E097A3856 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				99B7404442A1E464518C8990 /* Pods-MySubscriptions.debug.xcconfig */,
+				7F7233DFEF802A8B897AEC33 /* Pods-MySubscriptions.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +152,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D5EA888C22BBBF5C00C871CB /* Build configuration list for PBXNativeTarget "MySubscriptions" */;
 			buildPhases = (
+				30D02FDA5B230990049667A1 /* [CP] Check Pods Manifest.lock */,
 				D5EA887622BBBF5B00C871CB /* Sources */,
 				D5EA887722BBBF5B00C871CB /* Frameworks */,
 				D5EA887822BBBF5B00C871CB /* Resources */,
+				B381BEE109A59162CDA2D848 /* [CP] Embed Pods Frameworks */,
+				0A1A9CF4C21634731EB745E4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -123,20 +207,91 @@
 			buildActionMask = 2147483647;
 			files = (
 				D5EA888822BBBF5C00C871CB /* LaunchScreen.storyboard in Resources */,
+				D5BEDBFB22BBF2A8002C7DD0 /* Poppins-Bold.ttf in Resources */,
+				D5BEDBFA22BBF2A4002C7DD0 /* Poppins-Light.ttf in Resources */,
 				D5EA888522BBBF5C00C871CB /* Assets.xcassets in Resources */,
 				D5EA888322BBBF5B00C871CB /* Main.storyboard in Resources */,
+				D5EA889022BBD0ED00C871CB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0A1A9CF4C21634731EB745E4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MySubscriptions/Pods-MySubscriptions-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		30D02FDA5B230990049667A1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MySubscriptions-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B381BEE109A59162CDA2D848 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-MySubscriptions/Pods-MySubscriptions-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MySubscriptions/Pods-MySubscriptions-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D5EA887622BBBF5B00C871CB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D5EA888022BBBF5B00C871CB /* ViewController.swift in Sources */,
+				D56BAFD622C4559B0007EBD0 /* HelperMethod.swift in Sources */,
+				D59C0AD322C073D000E94BE8 /* SubscriptionsTableViewController.swift in Sources */,
+				D5C2CF0922C3FFF00062B38F /* BillDetailsViewController.swift in Sources */,
+				D5DA1A2B22BDA2A600E08BDB /* SubscriptionTableViewCell.swift in Sources */,
+				D5CC18FA22C07A6700F945E7 /* Subscription.swift in Sources */,
+				D507AD6E22BD92FE005E918A /* LoginViewController.swift in Sources */,
+				D5E70EDA22BEFB32003A437F /* AddNewSubscriptionViewController.swift in Sources */,
+				D5336BFB22C2AE40007CD44A /* FirstPageViewController.swift in Sources */,
 				D5EA887E22BBBF5B00C871CB /* AppDelegate.swift in Sources */,
+				D507AD7022BD9306005E918A /* SignUpViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +435,7 @@
 		};
 		D5EA888D22BBBF5C00C871CB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 99B7404442A1E464518C8990 /* Pods-MySubscriptions.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +454,7 @@
 		};
 		D5EA888E22BBBF5C00C871CB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F7233DFEF802A8B897AEC33 /* Pods-MySubscriptions.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
