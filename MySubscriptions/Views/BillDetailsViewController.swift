@@ -97,8 +97,8 @@ class BillDetailsViewController: UIViewController , UIPickerViewDataSource , UIP
             activityIndicator.stopAnimating()
             alert(title: "Oops!", message: "Please make sure you type all details")
         }
-       
     }
+    //MARK:- Method that dealing with Pickers
     
     func createDatePicker(){
         //toolbar
@@ -142,7 +142,7 @@ class BillDetailsViewController: UIViewController , UIPickerViewDataSource , UIP
     @objc func donePressed(){
         self.view.endEditing(true)
     }
-    //firstBillDate
+    
     func createCurrenciesPicker(){
         let toolbar = UIToolbar()
         toolbar.sizeToFit()
