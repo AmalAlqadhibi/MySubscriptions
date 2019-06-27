@@ -18,7 +18,6 @@
 ` $ cd <YourProjectName>` <br /> 
 ` $ pod install`<br /> 
 ` $ open <YourProjectName>.xcworkspace`<br /> 
-<br /> 
 
 To add this app to your Firebase project, use bundleID from the Xcode project. <br /> 
 Download GoogleService-Info.plist file that generated,<br /> then copy it to the root directory of the app(Xcode project).
