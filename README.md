@@ -7,6 +7,8 @@
 - show a countdown to next payment day.
 - allow user to add a subscriptions bill and set its attribute.
 - allow user to delete any subscriptions bill.
+- allow user to update subscriptions bill.
+- allow user to logout.
 
 # Requirements
 - Xcode 10.2
