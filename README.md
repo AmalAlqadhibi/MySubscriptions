@@ -1,5 +1,5 @@
 # MySubscriptions
-MySubscriptions is a simple app and the easiest way to track your subscriptions, recurring subscriptions and monthly payments.
+> MySubscriptions is a simple app and the easiest way to track your subscriptions, recurring subscriptions and monthly payments.
 # Features
 - sign in the app.
 - sign up.
@@ -9,18 +9,19 @@ MySubscriptions is a simple app and the easiest way to track your subscriptions,
 - allow user to delete any subscriptions bill.
 
 # Requirements
-Xcode 10.2
-Swift 5
-Firebase access.
+- Xcode 10.2
+- Swift 5
+- Firebase access.
 # Installation
-`
-$ git clone https://github.com/AmalAlqadhibi/MySubscriptions.git <YourProjectName>
-$ cd <YourProjectName>
-$ pod install
-$ open <YourProjectName>.xcworkspace
-`
-To add this app to your Firebase project, use bundleID from the Xcode project. 
-Download GoogleService-Info.plist file that generated, and copy it to the root directory of the app(Xcode project).
+
+` $ git clone https://github.com/AmalAlqadhibi/MySubscriptions.git <YourProjectName>` <br /> 
+` $ cd <YourProjectName>` <br /> 
+` $ pod install`<br /> 
+` $ open <YourProjectName>.xcworkspace`<br /> 
+<br /> 
+
+To add this app to your Firebase project, use bundleID from the Xcode project. <br /> 
+Download GoogleService-Info.plist file that generated,<br /> then copy it to the root directory of the app(Xcode project).
 See https://firebase.google.com/ for more information.
 
 
